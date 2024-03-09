@@ -1,1 +1,2 @@
-KeeLoq protocol research
+KeeLoq Remote
+for use with Flipper Zero
