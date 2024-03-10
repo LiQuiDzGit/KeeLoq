@@ -2,7 +2,7 @@ KeeLoq Remote
 for use with Flipper Zero
 
 
-/key {
+`/key {
   clear
   echo Keeloq Flipper Zero Generator
   echo ---
@@ -38,5 +38,5 @@ for use with Flipper Zero
   if %read.count == %read.total { echo finished | HALT }
   echo KEY %read.count - %file Key: %K1 %K2 %K3 %K4 C2 44 00 05
   goto writekey
-}
+}`
 
